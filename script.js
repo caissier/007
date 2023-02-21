@@ -86,7 +86,7 @@ Connection = function () {
     }
 
     this.createConnection = () => {
-        var ip = "37c8-2a01-cb01-1041-cac0-21f1-8308-4652-67ba.eu.ngrok.io"
+        var ip = "171d-2a01-cb01-1041-cac0-ec96-8382-6dcc-caa5.ngrok.io"
         var port = "8080"
 
         this.ws = new WebSocket('wss://' + ip)// + ":" + port)
